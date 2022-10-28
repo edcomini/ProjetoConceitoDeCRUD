@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="inserir.js"></script>
+    
+</head>
+
+
+<body>
+
+    <canvas id="meuCanvas"></canvas>
+
+    <h1>Aplicando conceito de CRUD</h1><br>
+    <div class="dados">
+
+        <div class="ids">
+            <font size = "5">Digite o id da cor</font>
+            <input type="text" id="identificacao" placeholder="id">
+        </div>
+
+        <div class="dadosDeEntrada">
+            <font size = "5">Digite a palavra da cor em inglês</font>
+            <input type="text" id="entrada" name="entradaSaida" placeholder="Digite uma cor">
+        </div>
+        
+        <button onclick="inserirEntrada()" id="btn1">Inserir</button>
+        <button onclick="lerDado()" id="btn">Ler</button>
+        <button onclick="atualizarDado()" id="btn">Atualizar</button>
+        <button onclick="deletarDado()" id="btn">Excluir</button>
+         
+    </div>
+
+</body>
+</html>

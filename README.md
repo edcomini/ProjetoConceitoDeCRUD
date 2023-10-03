@@ -1,2 +1,2 @@
 # ProjetoConceitoDeCRUD
- Aplicação do conceito de CRUD 
+ Esse programa mostra o conceito de CRUD. O programa mostra dois campos para o usuário. O campo id e o campo pra digitar uma cor. Além dos campos, a interface mostra os botões Inserir, Ler, Atualizar e Excluir. Conforme o usuário digita a cor e insere os retângulos aparecem. Cada retângulo é identificado por um id. Assim é possível alterar, ler e excluir um retângulo de uma determinada cor. 
